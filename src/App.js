@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/home/Home';
-// import About from './components/about/About';
+import About from './components/about/About';
 // import Contact from './components/contact/Contact';
 // import Portfolio from './components/portfolio/Portfolio';
 // import Resume from './components/resume/Resume';
@@ -14,10 +14,10 @@ const App = () => {
       <Sidebar />
       <main className="main">
         <Home />
-        {/* <About />
-        <Resume />
+        <About />
+        {/* <Resume />
         <Portfolio />
-        <Contact /> */}
+        <Contact />  */}
       </main>
 
     </>
