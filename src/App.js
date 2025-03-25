@@ -6,7 +6,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 // import Contact from './components/contact/Contact';
 // import Portfolio from './components/portfolio/Portfolio';
-// import Resume from './components/resume/Resume';
+import Resume from './components/resume/Resume';
 
 const App = () => {
   return (
@@ -15,8 +15,8 @@ const App = () => {
       <main className="main">
         <Home />
         <About />
-        {/* <Resume />
-        <Portfolio />
+        <Resume />
+        {/* <Portfolio />
         <Contact />  */}
       </main>
 
