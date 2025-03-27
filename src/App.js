@@ -5,7 +5,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/home/Home';
 import About from './components/about/About';
 // import Contact from './components/contact/Contact';
-// import Portfolio from './components/portfolio/Portfolio';
+import Portfolio from './components/portfolio/Portfolio';
 import Resume from './components/resume/Resume';
 
 const App = () => {
@@ -16,8 +16,8 @@ const App = () => {
         <Home />
         <About />
         <Resume />
-        {/* <Portfolio />
-        <Contact />  */}
+        <Portfolio />
+        {/* <Contact />  */}
       </main>
 
     </>
